@@ -22,4 +22,4 @@ status = cycle(['Netflix', 'The Amazing World of Gumball', "Little Einsteins", "
 async def status_message():
     await client.change_presence(activity = discord.Activity(type = discord.ActivityType.watching, name = next(status)))
 
-client.run('NzQyNDcwNzcwMjgxNjc2ODcy.XzGlyg.7CpO6ILusDaOHp2-wpB1FPLhphI')
+client.run('Secret ;)')
